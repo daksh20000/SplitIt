@@ -90,7 +90,7 @@ export const STEPS = [
 export const TESTIMONIALS = [
   {
     quote:
-      "Ye babu rao ka style hai! With Splitr, I finally stopped getting confused about who paid for what!",
+      "Ye babu rao ka style hai! With SplitIt, I finally stopped getting confused about who paid for what!",
     name: "Babu Rao",
     image: review1Image,
     role: "Rental Property Manager",
@@ -98,7 +98,7 @@ export const TESTIMONIALS = [
   },
   {
     quote:
-      "Splitr's calculations are so accurate, they're even better than my scheme to double money in 25 days!",
+      "SplitIt's calculations are so accurate, they're even better than my scheme to double money in 25 days!",
     name: "Raju",
     image: review2Image,
     role: "Stock Market Expert",
@@ -106,7 +106,7 @@ export const TESTIMONIALS = [
   },
   {
     quote:
-      "If that I have Splitr, Raju wont get away with selling my shoes and coat! I'll add to his debt!",
+      "If that I have SplitIt, Raju wont get away with selling my shoes and coat! I'll add to his debt!",
     name: "Shyam",
     image: review3Image,
     role: "Job Searcher",
