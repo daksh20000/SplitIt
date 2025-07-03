@@ -118,7 +118,7 @@ export default function Home() {
                     <Image 
                     src={image}
                     alt={name}
-                    className="w-10 rounded-full"
+                    className="w-10  h-10 rounded-full"
                     width={500}
                     height={500}
                     priority/>

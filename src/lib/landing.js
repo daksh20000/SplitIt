@@ -1,7 +1,7 @@
 import { Bell, CreditCard, PieChart, Receipt, Users } from "lucide-react";
-import review1Image from "./../../public/testimonials/babubhaiya.png"
-import review2Image from "./../../public/testimonials/raju.jpg"
-import review3Image from "./../../public/testimonials/shyam.png"
+import review1Image from "./../../public/testimonials/up.jpg"
+import review2Image from "./../../public/testimonials/pahadi.jpg"
+import review3Image from "./../../public/testimonials/breaking.png"
 
 export const FEATURES = [
   {
@@ -90,23 +90,23 @@ export const STEPS = [
 export const TESTIMONIALS = [
   {
     quote:
-      "Ye babu rao ka style hai! With SplitIt, I finally stopped getting confused about who paid for what!",
-    name: "Babu Rao",
+      `App told me my friend owes me $14.23. I told them it’s cool. App disagreed and told them again—with a notification`,
+    name: "Mangalam Shukla",
     image: review1Image,
-    role: "Rental Property Manager",
+    role: "Investment Banger",
     id:1
   },
   {
     quote:
-      `SplitIt's calculations are so accurate, they're even better than my scheme to double money in 25 days!`,
-    name: "Raju",
+      `The app said I owe $4.76. I said 'prove it.' It did—complete with timestamps and guilt."`,
+    name: "Amit Rawat",
     image: review2Image,
-    role: "Stock Market Expert",
+    role: "Angel Inspector",
     id:2
   },
   {
     quote:
-      "If that I have SplitIt, Raju wont get away with selling my shoes and coat! I'll add to his debt!",
+      `I used this app once and my friends started paying me back. Either it's magical or they finally got scared.`,
     name: "Shyam",
     image: review3Image,
     role: "Job Searcher",
