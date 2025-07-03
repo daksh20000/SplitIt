@@ -117,8 +117,8 @@ const Page = () => {
                 <div className='text-2xl font-bold'>
                   $0.00
                 </div>
-                <p className='text-muted-foreground text-xs mt-1' >
-                  You don't owe anyone
+                <p className='text-muted-foreground text-xs mt-1'>
+                  You don&apos;t owe anyone
                 </p>
               </>
             )

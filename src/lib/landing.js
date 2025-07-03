@@ -98,7 +98,7 @@ export const TESTIMONIALS = [
   },
   {
     quote:
-      "SplitIt's calculations are so accurate, they're even better than my scheme to double money in 25 days!",
+      `SplitIt's calculations are so accurate, they're even better than my scheme to double money in 25 days!`,
     name: "Raju",
     image: review2Image,
     role: "Stock Market Expert",

@@ -2,9 +2,6 @@ import { mutation, query } from "./_generated/server";
 import { v } from "convex/values";
 import { internal } from "./_generated/api";
 
-/* ============================================================================
- *  MUTATION: createSettlement
- * -------------------------------------------------------------------------- */
 
 export const createSettlement = mutation({
   args: {

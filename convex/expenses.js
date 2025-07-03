@@ -114,7 +114,7 @@ export const deleteExpense = mutation({
     // Check if user is authorized to delete this expense
     // Only the creator of the expense or the payer can delete it
     if (expense.createdBy !== user._id && expense.paidByUserId !== user._id) {
-      throw new Error("You don't have permission to delete this expense");
+      throw new Error(`You don't have permission to delete this expense`);
     }
 
      

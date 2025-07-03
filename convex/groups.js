@@ -23,7 +23,7 @@ export const getGroupOrMembers = query({
       );
 
       if (!selectedGroup) {
-        throw new Error("Group not found or you're not a member");
+        throw new Error(`Group not found or you're not a member`);
       }
 
       // Get all user details for this group's members
