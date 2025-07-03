@@ -11,7 +11,7 @@ import BalanceSummary from "./_components/balance-summary"
 import ExpenseSummary from "./_components/expense-summary"
 import GroupList from "./_components/group-list"
 
-const page = () => {
+const Page = () => {
   const{data:balances, isLoading:balancesLoading} = useConvexQuery(api.dashboard.getUserBalances)
   const{data:totalSpent, isLoading:totalSpentLoading} = useConvexQuery(api.dashboard.getTotalSpent)
   const{data:groups, isLoading:groupsLoading} = useConvexQuery(api.dashboard.getUserGroups)
@@ -185,4 +185,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

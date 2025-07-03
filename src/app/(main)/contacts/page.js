@@ -12,7 +12,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@radix-ui/react-avatar'
 import CreateGroupModal from './_components/CreateGroupModal'
 import { useRouter, useSearchParams } from 'next/navigation'
 
-const page = () => {
+const Page = () => {
   const [isGroupModalOpen, setIsGroupModalOpen] = useState(false)
   const {data, isLoading,error,} = useConvexQuery(api.contacts.getAllContacts)
 
