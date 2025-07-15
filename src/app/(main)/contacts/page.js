@@ -1,5 +1,5 @@
 "use client"
-import { useQuery } from 'convex/react'
+
 import React, { useEffect, useState } from 'react'
 import { api } from '../../../../convex/_generated/api'
 import { useConvexQuery } from '@/hooks/useConvexQuery'
@@ -138,4 +138,4 @@ const Page = () => {
   )
 }
 
-export default page
+export default Page
