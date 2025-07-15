@@ -9,6 +9,8 @@ import { useParams, usePathname, useSearchParams } from "next/navigation";
 import { Authenticated, Unauthenticated } from "convex/react";
 import { Button } from "./ui/button";
 import { LayoutDashboard } from "lucide-react";
+import { Label } from "./ui/label";
+import { Badge } from "./ui/badge";
 
 function Header() {
     const path =usePathname()
@@ -25,6 +27,16 @@ function Header() {
                     alt={"logo"}
                     />
                 </Link>
+                {path=="/sign-in"&&
+                    (
+                    
+                        <Badge variant={"outline"} className="bg-green-100 text-green-700 flex-col items-start justify-center text-sm">
+                            <p>Test Id : xyz@abcd.com </p>
+                            <p>Test Pass : abcd1234</p>
+                        </Badge>
+                    
+                    )
+                }
                 {path == "/" && 
                 <div className="hidden md:flex items-center gap-6 ">
                     <Link href={"#features"} className="text-sm font-medium hover:text-green-500 transition">
